@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokemon Center</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="./Assets/Style/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-4 mb-4">Pokemon Center</h1>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://cdn11.bigcommerce.com/s-89ffd/images/stencil/532x532/products/144562/526641/4521329388588_718e5aef5596213cd6299a1ccfc7ae54__55955.1711693003.jpg?c=2"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">     Diancie</h5>
+              <p class="card-text">Price: PHP290</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://cdn11.bigcommerce.com/s-89ffd/images/stencil/532x532/products/144561/526639/4521329388595_ac06e968a9b9a11a5e006181f7601d5b__98285.1711692940.jpg?c=2"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">    Hoopa</h5>
+              <p class="card-text">Price: PHP290</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://cdn11.bigcommerce.com/s-89ffd/images/stencil/532x532/products/144560/526637/4521329388601_d29fd74b83aef886ffab9c763d0894d8__17876.1711692861.jpg?c=2"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">     Volcanion</h5>
+              <p class="card-text">Price: PHP290</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://cdn11.bigcommerce.com/s-89ffd/images/stencil/532x532/products/144559/526635/4521329380148_305f0b7b3556256786aa16f158dbe684__91583.1711692594.jpg?c=2"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">    Chespin Quilladin Chesnaught</h5>
+              <p class="card-text">Price: PHP560</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://cdn11.bigcommerce.com/s-89ffd/images/stencil/532x532/products/144558/526633/4521329380155_68c0ecac51e75471cce9415ebf43407c__93600.1711692522.jpg?c=2"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">    Fennekin Braixen Delphox</h5>
+              <p class="card-text">Price: PHP490</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card">
+            <img
+              src="https://cdn11.bigcommerce.com/s-89ffd/images/stencil/532x532/products/144557/526631/4521329380162_ce9a2ada24adb5090c1c5c1728532480__17112.1711692445.jpg?c=2"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">    Froakie Frogadier Greninja</h5>
+              <p class="card-text">Price: PHP750</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mt-5">
+        <div class="col-md-6">
+          <div class="col-md-12 text-center">
+            <h2>Order Form</h2>
+            <div class="counter mt-3">
+              <span>Total Items Ordered: </span>
+              <span id="totalItems">0</span>
+            </div>
+            <div class="counter mt-3">
+              <span>Diancie: </span>
+              <button id="minus1" class="btn btn-secondary">-</button>
+              <span id="quantity1">0</span>
+              <button id="plus1" class="btn btn-secondary">+</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center">
+            <div class="counter mt-3">
+              <span>Hoopa: </span>
+              <button id="minus2" class="btn btn-secondary">-</button>
+              <span id="quantity2">0</span>
+              <button id="plus2" class="btn btn-secondary">+</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center">
+            <div class="counter mt-3">
+              <span>Volcanion: </span>
+              <button id="minus3" class="btn btn-secondary">-</button>
+              <span id="quantity3">0</span>
+              <button id="plus3" class="btn btn-secondary">+</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center">
+            <div class="counter mt-3">
+              <span>Chespin Quilladin Chesnaught: </span>
+              <button id="minus4" class="btn btn-secondary">-</button>
+              <span id="quantity4">0</span>
+              <button id="plus4" class="btn btn-secondary">+</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center">
+            <div class="counter mt-3">
+              <span>Fennekin Braixen Delphox: </span>
+              <button id="minus5" class="btn btn-secondary">-</button>
+              <span id="quantity5">0</span>
+              <button id="plus5" class="btn btn-secondary">+</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center">
+            <div class="counter mt-3">
+              <span>Froakie Frogadier Greninja: </span>
+              <button id="minus6" class="btn btn-secondary">-</button>
+              <span id="quantity6">0</span>
+              <button id="plus6" class="btn btn-secondary">+</button>
+            </div>
+          </div>
+          <div class="col-md-12 text-center mt-3">
+            <span>Total Bill: PHP</span><span id="totalBill">0</span>
+          </div>
+          <div class="col-md-12 text-center mt-3">
+            <span>Cash: PHP</span
+            ><input type="number" id="cashInput" min="0" step="0.01" />
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="col-md-12 text-center">
+            <h2>Customer Information</h2>
+            <div class="form-group mt-3">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Enter your name"
+              />
+            </div>
+            <div class="form-group mt-3">
+              <label for="address">Address:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="address"
+                placeholder="Enter your address"
+              />
+            </div>
+            <div class="form-group mt-3">
+              <label for="contact">Contact Number:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="contact"
+                placeholder="Enter your contact number"
+              />
+            </div>
+            <div class="col-md-12 text-center mt-3">
+              <button id="submitOrder" class="button">Submit Order</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="invoiceModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="invoiceModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="invoiceModalLabel">Sales Invoice</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body" id="invoiceContent"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./Assets/JS/script.js"></script>
+  </body>
+</html>

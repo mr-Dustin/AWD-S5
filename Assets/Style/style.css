@@ -1,0 +1,48 @@
+body {
+  background-image: rgb(51, 51, 51);
+  background-size: cover;
+  font-family: "Courier New", Courier, monospace;
+  -webkit-font-smoothing: none;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: bold;
+  color: rgb(54, 67, 250);
+}
+
+.card-body,
+.card-title,
+.card-text {
+  color: black !important;
+}
+
+.counter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.counter button {
+  margin: 0 5px;
+}
+
+.modal-body {
+  color: rgb(0, 0, 0) !important;
+}
+.button {
+  background-color: rgb(230, 28, 28);
+  border-color: rgb(255, 255, 255);
+  color: white;
+}
+.button:hover {
+  background-color: rgb(220, 170, 248);
+  border-color: rgb(235, 206, 255);
+  color: black;
+}
+
+@media (max-width: 768px) {
+  .counter {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
